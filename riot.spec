@@ -47,7 +47,7 @@ Riot is free. Riot is secure.
 #----------------------------------------------------------------------------
 
 %prep
-%setup -qn %{oname}-%{version}
+%setup -qn %{oname}-v%{version}
 #patch0 -p1
 #patch1 -p1
 
