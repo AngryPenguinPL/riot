@@ -17,7 +17,7 @@ License:	ASL 2.0
 Group:		Networking/Instant messaging
 Url:		http://riot.im/
 Source0:	https://github.com/vector-im/riot-web/archive/v%{version}.tar.gz?/%{oname}-%{version}.tar.gz
-Source1:	%{name}-extras-desktop.tar.gz
+#Source1:	%{name}-extras-desktop.tar.gz
 #Patch0:		riot-web-0.15.4-menubar.patch
 #Patch1:		riot-web-0.15.5-kde-tray-icon.patch
 BuildRequires:	git
