@@ -16,7 +16,7 @@ Release:	1
 License:	ASL 2.0
 Group:		Networking/Instant messaging
 Url:		http://riot.im/
-Source0:	https://github.com/vector-im/riot-web/releases/download/v0.15.5/riot-v0.15.5.tar.gz
+Source0:	https://github.com/vector-im/riot-web/archive/v0.15.5/riot-web-0.15.5.tar.gz
 #Source1:	%{name}-extras-desktop.tar.gz
 #Patch0:		riot-web-0.15.4-menubar.patch
 #Patch1:		riot-web-0.15.5-kde-tray-icon.patch
@@ -47,7 +47,7 @@ Riot is free. Riot is secure.
 #----------------------------------------------------------------------------
 
 %prep
-%setup -qn %{name}-v%{version}
+%setup -qn %{oname}-%{version}
 #patch0 -p1
 #patch1 -p1
 
